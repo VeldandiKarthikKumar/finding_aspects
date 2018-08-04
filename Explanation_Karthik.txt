@@ -1,0 +1,12 @@
+Steps of the approach:
+1.	Getting sentences out of the review
+2.	Tokenizing the given input file after basic NLP pre-processing (spell correction, stop word removal, lemmatization etc.)
+3.	Parts of Speech tagging using Standard NLP parser (from python NLTK) and extracting all words only with pos tag  'NN','NNP','NNS','NNPS' 
+Based on research, it is found that product aspects tend to be nouns or/and noun phrases
+4.	Focusing on extracting Nouns and Noun phrases as relevant aspect words 
+5.	Mapping of the extracted words using likeness scores* 
+-	Couldn’t complete this due to time constraint. 
+
+References:
+-	https://eprints.qut.edu.au/97562/8/Amani%2520Khalaf_Samha_Thesis.pdf 
+-	http://sentic.net/aspect-parser.pdf 
